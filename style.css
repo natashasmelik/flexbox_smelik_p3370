@@ -1,0 +1,36 @@
+body{
+  height: 100%;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0px auto; 
+}
+.gamma{
+  display: flex;     
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.black{
+  background-color: black;
+  color: white;
+}  
+.white{
+  height: 300px;
+  width: 25%;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+div{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; 
+  background-color: white; 
+  height: 220px;
+  width: 22%; 
+  margin: 15px;
+}
